@@ -104,22 +104,6 @@ for i in range(50):
 
 cap.release()
 ```
-cap = cv2.VideoCapture(0)
-
-for i in range(50):
-    ret, frame = cap.read()
-    if not ret:
-        break
-    resized_frame = cv2.resize(frame, (100, 150))  # Resize to 320x240
-    frame_rgb = cv2.cvtColor(resized_frame, cv2.COLOR_BGR2RGB)
-    clear_output(wait=True)
-    plt.imshow(frame_rgb)
-    plt.axis('off')
-    plt.show()
-    time.sleep(0.05)
-
-cap.release()
-```
 
 <img width="305" height="456" alt="image" src="https://github.com/user-attachments/assets/55e4ad3e-8af8-4e0a-84ce-4051b436ed99" />
 
