@@ -61,6 +61,10 @@ plt.title('Captured Frame')
 plt.axis('off')
 plt.show()
 ```
+
+<img width="640" height="507" alt="image" src="https://github.com/user-attachments/assets/8bbde461-b6fc-416c-9f55-07b43bdeb6ae" />
+
+
 # ii) Display the video
 ```
 cap = cv2.VideoCapture(0)
@@ -78,6 +82,9 @@ for i in range(50):
 
 cap.release()
 ```
+<img width="627" height="471" alt="image" src="https://github.com/user-attachments/assets/c63679ae-d152-46f5-8aba-fad7b6f90b15" />
+
+
 # iii) Display the video by resizing the window
 
 ```
@@ -113,7 +120,11 @@ for i in range(50):
 
 cap.release()
 ```
+
+<img width="305" height="456" alt="image" src="https://github.com/user-attachments/assets/55e4ad3e-8af8-4e0a-84ce-4051b436ed99" />
+
 # iv) Rotate and display the video
+
 ```
 cap = cv2.VideoCapture(0)
 
@@ -131,6 +142,9 @@ for i in range(50):
 
 cap.release()
 ```
+
+<img width="350" height="462" alt="image" src="https://github.com/user-attachments/assets/e94b1709-9f03-4b3c-b10b-166d3d249f03" />
+
 # Result
 Thus, the image is successfully captured from the webcam and various video processing operations such as saving, displaying, resizing, and rotating are performed using OpenCV.
 
